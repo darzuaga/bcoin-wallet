@@ -1,0 +1,63 @@
+.wallet_left_nav {
+    background: #fff;
+    border-right: 1px solid #eee !important;
+}
+
+.wallet_right_nav {
+    background: #FAFBFC;
+    overflow: hidden;
+    float: right;
+}
+
+.pay_request_buttons {
+    padding: 0px 15px;
+}
+
+.activity_table_header > th {
+    font-weight: bold !important;
+    color: black !important;
+}
+
+.activity_table_container {
+    margin: 20px 50px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.bcoin_wallet_container {
+    width: 100%;
+    padding: 0px 20px;
+}
+
+.bcoin_text {
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.bcoin_logo {
+    float: left;
+    width: 50%;
+    margin-right: 10px;
+}
+
+.header_search_form {
+    border-bottom: 2px solid #eee;
+    width: 100%;
+    background: #fff;
+}
+
+.header_search_form input {
+    height: 75px;
+    border: none !important;
+    outline: none;
+    font-size: 25px;
+    width: 95%;
+}
+
+.search_icon {
+    float: left;
+    margin-right: 5px !important;
+    padding-top: 22px !important;
+    margin-left: 10px !important;
+}
