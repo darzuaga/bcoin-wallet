@@ -12,6 +12,14 @@ const Activity = () => {
                         <p className="bcoin_text">wallet</p>
                     </div>
 
+                    <div className="sidenav_links uk-position-center">
+                        <ul class="uk-nav">
+                            <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: clock"></span> Activity</a></li>
+                            <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: credit-card"></span> Wallet</a></li>
+                            <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: cog"></span> Settings</a></li>
+                        </ul>
+                    </div>
+
                     <div className="pay_request_buttons uk-position-bottom uk-width-1-5">
                         <button className="uk-button uk-button-primary uk-width-1-1 uk-margin-small-bottom">
                             PAY

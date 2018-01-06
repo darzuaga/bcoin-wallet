@@ -61,3 +61,11 @@
     padding-top: 22px !important;
     margin-left: 10px !important;
 }
+
+.sidenav_links {
+    left: 100px !important;
+}
+
+.sidenav_links li {
+    margin-left: 50px;
+}
