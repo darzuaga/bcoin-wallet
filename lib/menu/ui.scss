@@ -1,7 +1,11 @@
 .component {
-  display: flex;
+  display: none;
   height: 100%;
   overflow: hidden;
-  transition: width 200ms ease;
-  width: $sidebar-width;
+  position: relative;
+  width: 100%;
+}
+
+.visible {
+  display: block;
 }
