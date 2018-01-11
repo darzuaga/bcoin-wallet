@@ -27,7 +27,6 @@
         "bsocks": "~0.0.1",
         "bstring": "~0.0.1",
         "bufio": "~0.0.1",
-        "bval": ""
         "bweb": "~0.0.1"
     },
     "devDependencies": {
