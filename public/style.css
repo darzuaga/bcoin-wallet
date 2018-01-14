@@ -1,71 +1,177 @@
-.wallet_left_nav {
-    background: #fff;
-    border-right: 1px solid #eee !important;
-}
-
-.wallet_right_nav {
-    background: #FAFBFC;
+.app {
+    width: 100%;
     overflow: hidden;
-    float: right;
 }
 
-.pay_request_buttons {
-    padding: 0px 15px;
+.left_main_container {
+    width: 300px;
+    float: left;
 }
 
-.activity_table_header > th {
-    font-weight: bold !important;
-    color: black !important;
+.main_container {
+    width: 100%;
+    background: #0b1926;
 }
 
-.activity_table_container {
-    margin: 20px 50px;
-    padding: 10px;
-    background: #fff;
+.left_nav {
+    width: 85px;
+    float: left;
+    background: #344257;
+}
+
+.center_nav {
+    width: 215px;
+    margin-left: 85px;
+    background: #283343;
+}
+
+.add_icon {
+    float: left;
+    margin-right: 10px;
+    margin-top: -15px;
+    margin-left: 15px !important;
+}
+
+.add_wallet_container {
+    margin-left: 85px !important;
+    padding: 20px 0px;
+    background: #171e27;
+    width: 215px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.add_icon {
+    font-size: 40px;
+}
+
+.center_activity_log_container {
+    margin: 0px !important;
+    list-style-type: none;
+    color: #fff;
+}
+
+.center_activity_li_transaction_text {
+    float: left;
+    margin-right: 15px;
+}
+
+.center_activity_li_outer_container {
+    padding: 10px 0px;
+    background: #1c232e;
+    margin-left: -30px;
+    padding-left: 20px;
+    border-bottom: 1px solid #344257;
+}
+
+.main_container_header {
+    height: 50px;
+    background: #283343;
+    margin-bottom: 2px;
+    padding-bottom: 30px;
+}
+
+.main_container_header_content_container {
+    padding-top: 18px;
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+}
+
+.main_container_header_currency_text {
+    margin-left: 10px;
+}
+
+.main_container_header_transaction_outer_container {
+    color: #afb9c5;
+}
+
+.main_container_navigation_container {
+    height: 30px;
+    background: #283343;
+    margin-left: 300px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.navigation_link_container {
+    font-weight: lighter;
+    width: 16%;
+    background: #56636f;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    float: left;
+    margin: 0px 2%;
+}
+
+.main_container_navigation_container a:hover,
+.main_container_navigation_container a:visited,
+.main_container_navigation_container a:active
+.main_container_navigation_container a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.activity_log_list_container {
+    list-style-type: none;
+    position: absolute;
+    left: 300px;
+    right: 0;
+    padding: 0px !important;
+    color: #fff;
+    font-weight: lighter;
+}
+
+.activity_log_li {
+    width: 95%;
+    margin: 0px auto;
+    background: #283343;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.activty_log_transaction_text {
+    font-size: 50px;
+}
+
+.send_view_container {
+    position: absolute;
+    left: 310px;
+    right: 10px;
+    font-weight: lighter;
+    background: #283343;
+    margin-top: 10px;
+    padding: 20px;
     border-radius: 10px;
 }
 
-.bcoin_wallet_container {
+.receiver_outer_container {
+    margin-bottom: 20px;
+}
+
+.wallet_address_input_container,
+.amount_input_container {
+    margin-top: 20px;
+}
+
+.wallet_address_input_container input,
+.amount_input_container input {
     width: 100%;
-    padding: 0px 20px;
-}
-
-.bcoin_text {
-    padding-top: 15px;
-    font-size: 20px;
-}
-
-.bcoin_logo {
-    float: left;
-    width: 50%;
-    margin-right: 10px;
-}
-
-.header_search_form {
-    border-bottom: 2px solid #eee;
-    width: 100%;
-    background: #fff;
-}
-
-.header_search_form input {
-    height: 75px;
-    border: none !important;
+    border: 1px solid #3c4858;
+    background: none;
+    height: 50px;
     outline: none;
-    font-size: 25px;
-    width: 95%;
+    padding-left: 20px;
+    color: #8993a0;
+    font-size: 20px;
+    font-weight: lighter;
 }
 
-.search_icon {
-    float: left;
-    margin-right: 5px !important;
-    padding-top: 22px !important;
-    margin-left: 10px !important;
-}
-
-.sidenav_links {
-    left: 100px !important;
-}
-
-.sidenav_links li {
-    margin-left: 50px;
+.receiver_outer_container,
+.amount_outer_container {
+    color: #fff;
 }
