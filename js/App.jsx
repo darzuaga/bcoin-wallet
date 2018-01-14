@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter, Route, Switch, Link } from 'react-router-dom'
 import Summary from './Summary'
 import Send from './Send'
+import Options from './Options'
 
 const FourOhFour = () => <h1>404</h1>;
 
@@ -104,11 +105,18 @@ const App = () => {
                             </div>
                         </Link>
 
+                        <Link to="/options" className="navigation_link_container">
+                            <div className="navigation_link_text">
+                                Options
+                            </div>
+                        </Link>
+
                     </div>
 
                     <Switch>
                         <Route exact path='/' component={Summary} />
                         <Route path='/send' component={Send} />
+                        <Route path='/options' component={Options} />
                         <Route component={FourOhFour} />
                     </Switch>
                 </div>
